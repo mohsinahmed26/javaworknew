@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+        <div class="input">
+            <input disabled id="calc-input" type="text" placeholder="Calculator">
+        </div>
+        <div class="btn">
+            <button id="ac" onclick="clearResult()">AC</button>
+            <button id="C" onclick="clearResult()">C</button>
+            <button id="modulus" onclick="setNumber('%')">Remainder </button>
+        </div>
+        <div class="btn">
+            <button id="g" onclick="setNumber('7')">7</button>
+            <button id="h" onclick="setNumber('8')">8</button>
+            <button id="i" onclick="setNumber('9')">9</button>
+            <button id="k" onclick="numDivide()">%</button>
+
+        </div>
+        <div class="btn">
+            <button id="d" onclick="setNumber('4')">4</button>
+            <button id="e" onclick="setNumber('5')">5</button>
+            <button id="f" onclick="setNumber('6')">6</button>
+            <button id="l" onclick="setNumber('/')">/</button>
+
+        </div>
+        <div class="btn">
+            <button id="a" onclick="setNumber('1')">1</button>
+            <button id="b" onclick="setNumber('2')">2</button>
+            <button id="c" onclick="setNumber('3')">3</button>
+            <button id="m" onclick="setNumber('*')">x</button>
+
+        </div>
+        <div class="btn">
+            <button id="func1" onclick="numRoot()">x <sup>1/2</sup></button>
+            <button id="j" onclick="setNumber('0')">0</button>
+            <button id="dot" onclick="setNumber('.')">.</button>
+            <button id="n" onclick="setNumber('+')">+</button>
+
+        </div>
+        <div class="btn">
+            <button id="func2" onclick="numSquare()">x <sup>2</sup></button>
+            <button id="column1" onclick="setNumber('(')">(</button>
+            <button id="column2" onclick="setNumber(')')">)</button>
+            <button id="o" onclick="setNumber('-')">-</button>
+        </div>
+        <div class="btn1">
+            <button id="func3" onclick="setNumber('3.142')"><img src="./pi.png" alt="pi" width="17px" height="17px"></button>
+            <button id="func4" onclick="numFactorial()">n!</button>
+            <button id="func5" onclick="setNumber('1/')">1/x</button>
+            <button id="p" onclick="getResult()">=</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

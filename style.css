@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(233, 61, 61);
+}
+
+.calculator{
+    margin: 0 auto;
+    width: 320px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#calc-input{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 20px;
+    height: 40px;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.input{
+    height: 80px;
+    background-color: black;
+}
+
+.btn button{
+    width: 72px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    background-color: rgb(170, 168, 168);
+}
+
+.btn1 button{
+    width: 72px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    background-color: rgb(170, 168, 168);
+    margin-bottom: 10px;
+}
+
+.btn , .btn1{
+    padding: 3px 10px;
+    background-color: black;
+}
+
+.btn button sup{
+    font-size: 15px;
+}
+
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j{
+    background-color: white;
+}
+
+#ac,#C{
+    background-color: rgb(20, 214, 221);
+    color: white;
+}
+
+#k,#l,#m,#n,#o{
+    background-color: rgb(0, 57, 246);
+    color: white;
+}
+
+#modulus{
+    width: 147px;
+    background-color: rgb(223, 78, 10);
+    color: white;
+}
+
+#p{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    border-color: white;
+}
+
+#func1,#func2,#func3,#func4,#func5{
+    background-color: rgb(117, 158, 139);
+    color: rgb(19, 17, 17);
+}
+
+#column1,#column2{
+    background-color: rgb(0, 255, 76);
+    color: black;
+}
+
+#dot{
+    background-color:rgb(61, 66, 68) ;
+    color: white;
+}
+
+
+
